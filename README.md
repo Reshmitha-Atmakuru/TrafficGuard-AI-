@@ -106,7 +106,35 @@ http://localhost:3000
 
 ## 📸 Screenshots
 
-(Add screenshots here after uploading them.)
+## 📸 Screenshots
+
+### Login Page
+
+![Login Page](screenshots/login.png)
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### Add Traffic Violation
+
+![Add Violation](screenshots/addViolation.png)
+
+### View Records
+
+![View Records](screenshots/viewRecords.png)
+
+### Reports
+
+![Reports](screenshots/reports.png)
+
+### Hotspot Analysis
+
+![Hotspot Analysis](screenshots/hotspotAnalysis.png)
+
+### About System
+
+![About System](screenshots/about.png)
 
 ---
 
