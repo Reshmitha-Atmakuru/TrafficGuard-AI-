@@ -1,0 +1,335 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "username": "admin",
+      "password": "admin123",
+      "name": "Superintendent admin",
+      "badgeNumber": "TG-0001",
+      "role": "admin",
+      "district": "Vijayawada"
+    },
+    {
+      "id": "u2",
+      "username": "officer1",
+      "password": "officer123",
+      "name": "Ramesh Kumar",
+      "badgeNumber": "TG-4402",
+      "role": "officer",
+      "district": "Visakhapatnam"
+    },
+    {
+      "id": "u3",
+      "username": "officer2",
+      "password": "officer123",
+      "name": "Suresh Babu",
+      "badgeNumber": "TG-4518",
+      "role": "officer",
+      "district": "Guntur"
+    },
+    {
+      "id": "u4",
+      "username": "officer3",
+      "password": "officer123",
+      "name": "K. Lakshmi",
+      "badgeNumber": "TG-4690",
+      "role": "officer",
+      "district": "Tirupati"
+    }
+  ],
+  "violations": [
+    {
+      "id": "v1783522629719",
+      "vehicleNumber": "AP16BZ1233",
+      "ownerName": "G. Venkateswarlu",
+      "violationType": "Over Speeding",
+      "fineAmount": 1500,
+      "location": "bv nagar",
+      "district": "Vijayawada",
+      "dateTime": "2026-07-08T20:26",
+      "status": "Pending",
+      "evidenceImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=600&auto=format&fit=crop",
+      "officerId": "u1",
+      "officerName": "Superintendent admin",
+      "description": "Over Speeding reported at bv nagar",
+      "repeatOffender": true
+    },
+    {
+      "id": "v1783522574579",
+      "vehicleNumber": "AP16BZ1233",
+      "ownerName": "G. Venkateswarlu",
+      "violationType": "Over Speeding",
+      "fineAmount": 1500,
+      "location": "bv nagar",
+      "district": "Nellore",
+      "dateTime": "2026-07-08T20:24",
+      "status": "Pending",
+      "evidenceImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=600&auto=format&fit=crop",
+      "officerId": "u1",
+      "officerName": "Superintendent admin",
+      "description": "Over Speeding reported at bv nagar",
+      "repeatOffender": false
+    },
+    {
+      "id": "v1",
+      "vehicleNumber": "AP16BZ1234",
+      "ownerName": "G. Venkateswarlu",
+      "violationType": "Over Speeding",
+      "fineAmount": 1500,
+      "location": "Benz Circle, Vijayawada",
+      "district": "Vijayawada",
+      "dateTime": "2026-07-01T10:30:00",
+      "status": "Pending",
+      "evidenceImage": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=600&auto=format&fit=crop",
+      "officerId": "u2",
+      "officerName": "Ramesh Kumar",
+      "description": "Vehicle detected travelling at 95 km/h in a 60 km/h zone. Verified by speed gun.",
+      "repeatOffender": true
+    },
+    {
+      "id": "v2",
+      "vehicleNumber": "AP39TX5678",
+      "ownerName": "M. Jagadeesh Kumar",
+      "violationType": "No Helmet",
+      "fineAmount": 500,
+      "location": "RTC Complex Junction, Visakhapatnam",
+      "district": "Visakhapatnam",
+      "dateTime": "2026-07-03T15:45:00",
+      "status": "Paid",
+      "evidenceImage": "https://images.unsplash.com/photo-1444491741275-3747c53c99b4?q=80&w=600&auto=format&fit=crop",
+      "officerId": "u2",
+      "officerName": "Ramesh Kumar",
+      "description": "Rider and pillion rider both traveling without protective headgear.",
+      "repeatOffender": false
+    },
+    {
+      "id": "v3",
+      "vehicleNumber": "AP07AX2468",
+      "ownerName": "K. Srinivasa Rao",
+      "violationType": "Red Light Jump",
+      "fineAmount": 1000,
+      "location": "Lodge Centre, Guntur",
+      "district": "Guntur",
+      "dateTime": "2026-07-04T08:15:00",
+      "status": "Pending",
+      "evidenceImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?q=80&w=600&auto=format&fit=crop",
+      "officerId": "u3",
+      "officerName": "Suresh Babu",
+      "description": "Crossed signal 4 seconds after red light was active. Caught by automated surveillance camera.",
+      "repeatOffender": true
+    },
+    {
+      "id": "v4",
+      "vehicleNumber": "AP26BY4321",
+      "ownerName": "Ch. Ramakrishna",
+      "violationType": "Triple Riding",
+      "fineAmount": 1200,
+      "location": "Alipiri Circle, Tirupati",
+      "district": "Tirupati",
+      "dateTime": "2026-07-05T18:20:00",
+      "status": "Paid",
+      "evidenceImage": "https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=600&auto=format&fit=crop",
+      "officerId": "u4",
+      "officerName": "K. Lakshmi",
+      "description": "Two-wheeler riding with 3 adults, overloading vehicle stability guidelines.",
+      "repeatOffender": false
+    },
+    {
+      "id": "v5",
+      "vehicleNumber": "AP16BZ1234",
+      "ownerName": "G. Venkateswarlu",
+      "violationType": "Drunk Driving",
+      "fineAmount": 10000,
+      "location": "Kanaka Durga Varadhi, Vijayawada",
+      "district": "Vijayawada",
+      "dateTime": "2026-07-06T23:10:00",
+      "status": "Pending",
+      "evidenceImage": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=600&auto=format&fit=crop",
+      "officerId": "u2",
+      "officerName": "Ramesh Kumar",
+      "description": "Breathalyzer reading: 0.08% BAC. Vehicle seized and impounded immediately.",
+      "repeatOffender": true
+    },
+    {
+      "id": "v6",
+      "vehicleNumber": "AP31CZ9876",
+      "ownerName": "P. Lakshmi Narayana",
+      "violationType": "Using Mobile while Driving",
+      "fineAmount": 2000,
+      "location": "Gajuwaka Highway, Visakhapatnam",
+      "district": "Visakhapatnam",
+      "dateTime": "2026-07-07T12:00:00",
+      "status": "Pending",
+      "evidenceImage": "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?q=80&w=600&auto=format&fit=crop",
+      "officerId": "u3",
+      "officerName": "Suresh Babu",
+      "description": "Driver was using hand-held mobile device while cruising at 60 km/h.",
+      "repeatOffender": false
+    }
+  ],
+  "vehicle_owners": [
+    {
+      "vehicleNumber": "AP16BZ1234",
+      "ownerName": "G. Venkateswarlu",
+      "phone": "+91 9440123456",
+      "email": "venkateswarlu.g@gmail.com",
+      "address": "D.No: 12-4-5, Siddhartha Nagar, Vijayawada, Andhra Pradesh, 520010",
+      "licenseNumber": "AP1620150043210",
+      "vehicleModel": "Hyundai i20 (White)",
+      "previousViolations": 3
+    },
+    {
+      "vehicleNumber": "AP39TX5678",
+      "ownerName": "M. Jagadeesh Kumar",
+      "phone": "+91 8123456789",
+      "email": "jagadeesh.m@yahoo.com",
+      "address": "Flat 302, Sai Balaji Residency, MVP Colony, Visakhapatnam, Andhra Pradesh, 530017",
+      "licenseNumber": "AP3920180087654",
+      "vehicleModel": "Honda Activa 6G (Matte Blue)",
+      "previousViolations": 1
+    },
+    {
+      "vehicleNumber": "AP07AX2468",
+      "ownerName": "K. Srinivasa Rao",
+      "phone": "+91 9848011223",
+      "email": "srinivas.k@rediffmail.com",
+      "address": "D.No: 45-1-12, Arundalatpet, Guntur, Andhra Pradesh, 522002",
+      "licenseNumber": "AP0720120034567",
+      "vehicleModel": "Maruti Suzuki Swift (Silver)",
+      "previousViolations": 2
+    },
+    {
+      "vehicleNumber": "AP26BY4321",
+      "ownerName": "Ch. Ramakrishna",
+      "phone": "+91 7382910123",
+      "email": "ramakrishna.ch@gmail.com",
+      "address": "Srinivasa Nilayam, Alipiri Bypass Road, Tirupati, Andhra Pradesh, 517501",
+      "licenseNumber": "AP2620200054321",
+      "vehicleModel": "Royal Enfield Classic 350 (Black)",
+      "previousViolations": 0
+    },
+    {
+      "vehicleNumber": "AP31CZ9876",
+      "ownerName": "P. Lakshmi Narayana",
+      "phone": "+91 9177112233",
+      "email": "narayana.p@outlook.com",
+      "address": "Plot No 44, Sector 5, Ukkunagaram, Visakhapatnam, Andhra Pradesh, 530032",
+      "licenseNumber": "AP3120190098765",
+      "vehicleModel": "Tata Nexon (Red)",
+      "previousViolations": 1
+    },
+    {
+      "vehicleNumber": "AP02JK1357",
+      "ownerName": "S. Abdul Rahman",
+      "phone": "+91 9550124567",
+      "email": "abdul.rahman@gmail.com",
+      "address": "D.No: 5-34, Housing Board Colony, Anantapur, Andhra Pradesh, 515001",
+      "licenseNumber": "AP0220140024680",
+      "vehicleModel": "Kia Seltos (Grey)",
+      "previousViolations": 0
+    },
+    {
+      "vehicleNumber": "AP16BZ1233",
+      "ownerName": "G. Venkateswarlu",
+      "phone": "+91 9000000000",
+      "email": "owner.ap16bz1233@gmail.com",
+      "address": "Andhra Pradesh Registered, Nellore",
+      "licenseNumber": "AP5192430253",
+      "vehicleModel": "Motor Vehicle",
+      "previousViolations": 2
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "h1",
+      "locationName": "Benz Circle Crossing",
+      "district": "Vijayawada",
+      "riskLevel": "High Risk",
+      "accidentCount": 34,
+      "violationCount": 841,
+      "description": "High traffic density intersections connecting NH-16 and NH-65. Major issues: Red light jumping and lane violations during peak hours.",
+      "coordinates": {
+        "lat": 16.5015,
+        "lng": 80.6436
+      }
+    },
+    {
+      "id": "h2",
+      "locationName": "Kanaka Durga Varadhi Highway",
+      "district": "Vijayawada",
+      "riskLevel": "High Risk",
+      "accidentCount": 28,
+      "violationCount": 612,
+      "description": "Long bridge sector where motorists speed excessively. High accident rate at night due to limited heavy-vehicle speed control.",
+      "coordinates": {
+        "lat": 16.4952,
+        "lng": 80.6189
+      }
+    },
+    {
+      "id": "h3",
+      "locationName": "RTC Complex Flyover Exit",
+      "district": "Visakhapatnam",
+      "riskLevel": "Medium Risk",
+      "accidentCount": 18,
+      "violationCount": 490,
+      "description": "Merge bottleneck at the exit of the RTC complex flyover. Frequent minor collisions caused by hasty merges and triple riding on two-wheelers.",
+      "coordinates": {
+        "lat": 17.7244,
+        "lng": 83.3039
+      }
+    },
+    {
+      "id": "h4",
+      "locationName": "Gajuwaka Industrial Junction",
+      "district": "Visakhapatnam",
+      "riskLevel": "High Risk",
+      "accidentCount": 31,
+      "violationCount": 780,
+      "description": "Intersects heavy industrial transport trucks with local two-wheelers. High incidence of helmetless driving and illegal overtaking.",
+      "coordinates": {
+        "lat": 17.6897,
+        "lng": 83.2132
+      }
+    },
+    {
+      "id": "h5",
+      "locationName": "Lodge Centre Crossing",
+      "district": "Guntur",
+      "riskLevel": "High Risk",
+      "accidentCount": 24,
+      "violationCount": 550,
+      "description": "Busy commercial core intersection. Major concern: Pedestrian safety endangered by speed limit violations and red light jumping.",
+      "coordinates": {
+        "lat": 16.3067,
+        "lng": 80.4362
+      }
+    },
+    {
+      "id": "h6",
+      "locationName": "Alipiri Bypass Junction",
+      "district": "Tirupati",
+      "riskLevel": "Low Risk",
+      "accidentCount": 6,
+      "violationCount": 210,
+      "description": "Scenic entrance bypass to Tirumala hills. Under continuous surveillance. High helmet check enforcement helps keep accidents low.",
+      "coordinates": {
+        "lat": 13.6521,
+        "lng": 79.4034
+      }
+    },
+    {
+      "id": "h7",
+      "locationName": "Kurnool Highway Toll Plaza Apex",
+      "district": "Kurnool",
+      "riskLevel": "Medium Risk",
+      "accidentCount": 14,
+      "violationCount": 320,
+      "description": "Approaching lanes near the toll plaza witness high speed transitions. Drivers lane drift and over-speed under clear weather conditions.",
+      "coordinates": {
+        "lat": 15.8281,
+        "lng": 78.0373
+      }
+    }
+  ]
+}

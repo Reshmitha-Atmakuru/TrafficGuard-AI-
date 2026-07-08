@@ -1,0 +1,6 @@
+{
+  "name": "TrafficGuard AI – Smart Traffic Violation Detection and Management System",
+  "description": "An AI-powered smart traffic violation detection and management system with live reports, hotspot analysis, and a comprehensive REST API.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
