@@ -106,8 +106,6 @@ http://localhost:3000
 
 ## 📸 Screenshots
 
-## 📸 Screenshots
-
 ### Login Page
 
 ![Login Page](screenshots/login.png)
